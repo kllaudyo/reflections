@@ -1,0 +1,6 @@
+
+O que acontece quando você inicializa um repositório? Por que você precisa fazer isso?
+
+O git avisa q criou um novo diretório vazio, e você pode agora realizar comandos git nele.
+Você faz isso para conseguir transformar o diretório num repositório, contendo metadatas que ajudam a versionar
+e manter o histórico das alteraçoes nos arquivos

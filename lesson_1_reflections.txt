@@ -1,0 +1,37 @@
+Como a visualização de um diff entre duas versões de um arquivo ajudou você a ver o bug que foi introduzido?
+
+o diff me mostrou as linhas que foram excluídas com - e as adicionadas com +, desta forma ficou mais fácil
+identificar o que foi feito.
+
+Como poderia ter acesso fácil a toda a história de um arquivo torná-lo um programador mais eficiente a longo prazo?
+
+Tendo alguma ferramenta que me apresente a história de alterações do meus scripts.
+
+O que você acha que são os prós e contras de escolher manualmente quando criar um commit, como você faz no Git, vs ter versões salvas automaticamente, como o Google Docs faz?
+
+- pros
+x me da maior flexibilidade que o google drive
+x posso comitar minhas alterações logicamente
+
+- contras
+x o excesso de flexibilidade pode deixar o histórico muito confuso, caso commits sejam pequenos ou grande demais
+
+Por que você acha que alguns sistemas de controle de versão, como o Git, permitem salvar vários arquivos em um commit, enquanto outros, como o Google Docs, tratam cada arquivo separadamente?
+
+Para que haja ligação a um recurso de negócio lógico incluído em todos os arquivos alterados. e também para
+não bagunçar... o git salva o bloco do commit, então, ñao preciso buscar alterações um a um nesses arquivos
+o commit é um bloco, não apenas um arquivo... todos os arquivos são salvos, se vc voltar um commit, volta todos
+os arquivos... isso é útil para não ter um respositório cheio de bagunça.
+
+Como você pode usar os comandos git log e git diff para ver o histórico dos arquivos?
+git log mostra todos os commits executados no repositório
+git diff compara dois commits e apresentas as alterações de inserção e exclusão de linhas
+
+Como usar o controle de versão pode torná-lo mais confiante para fazer alterações que poderiam quebrar algo?
+
+Sei agora que usuando o comando git checkout posso voltar a uma versão anterior do commit que introduziu o erro
+isso me deixa mais seguro para criar meus projetos
+
+Agora que você tem seu espaço de trabalho configurado, o que você quer tentar usar o Git?
+
+Quero usar o git para controlar as versões dos meus projetos em reposítorios
