@@ -35,3 +35,5 @@ isso me deixa mais seguro para criar meus projetos
 Agora que você tem seu espaço de trabalho configurado, o que você quer tentar usar o Git?
 
 Quero usar o git para controlar as versões dos meus projetos em reposítorios
+
+adicionando uma nova linha pra adicionar ná área de staging e comitar novamente
