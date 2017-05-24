@@ -5,11 +5,18 @@ O git avisa q criou um novo diretório vazio, e você pode agora realizar comand
 Você faz isso para conseguir transformar o diretório num repositório, contendo metadatas que ajudam a versionar
 e manter o histórico das alteraçoes nos arquivos
 
-
 Como a área de preparação é diferente do diretório de trabalho e do repositório? Qual o valor que você acha que ele oferece?
-
 
 A área de trabalho é diferente do repositório, pois ela prepara os arquivos que serão colocados no commit.
 Oferece flexibilidade para escolher quais os arquivos alterados ou incluidos fazem parte do novo commit.
 
 adicionando uma nova linha pra comitar novamente
+
+Como você pode usar a área de preparação para se certificar de que você tem um commit por mudança lógica?
+usando o git diff vazio e o git diff --staged eu posso saber todas as alterações que estão no disco rígido, na área de trabalho
+e saber se eles fazem parte da mesma alteração lógica.
+
+Quais são algumas situações em que os ramos seriam úteis para manter sua história organizada? Como os ramos ajudariam?
+As branchs são úteis para testar novas funcionalidades, uma nova caracteristica nova que pode levar um tempo e vc ainda não quer mudar
+a versão principal, pois nela pode haver bugs q vc precisa corrigir, e vc quer fazer tudo fora master. A branch me daria segurança,
+para realizar todas as alterações e mesmo dando tudo errado, voltar para a branch master 
