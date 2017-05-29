@@ -3,3 +3,14 @@ Quando gostaria de usar um repositório remoto em vez de manter o trabalho local
 Para compartilhar meu código ou projeto com outras pessoas, para acessar meu código apartir de outros computadores, deixar
 meu código é histórico do repositório na nuvem é uma excelente forma de guardar toda a história de um projeto independente do
 computador e tempo q esteja desenvolvendo o projeto.
+
+Descreva as diferenças entre bifurcações, clones e branches. Quando você usaria um e não os outros?
+
+Uma bifurcação é relativa a um repositório github, e apenas cria no meu usuário uma cópia do projeto com a qual eu posso interagir, colocando meus
+próprios commits, após minhas alterações. Esse repositório bifurcado fica ligado ao original, porém sem fazer alterações.
+
+Um clone apenas clona um reposótirio git em um repositorio local no meu computador. muito útil quando vou fazer alterações em um projeto
+
+Uma branch apenas cria uma estrutura segura para que possa testar e realizar alterações. Branch é um local no meu próprio repositório onde eu posso
+realizar alterações e commits.
+
