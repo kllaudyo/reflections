@@ -14,3 +14,9 @@ Um clone apenas clona um reposótirio git em um repositorio local no meu computa
 Uma branch apenas cria uma estrutura segura para que possa testar e realizar alterações. Branch é um local no meu próprio repositório onde eu posso
 realizar alterações e commits.
 
+Qual é o benefício de ter uma cópia do último estado conhecido do remoto armazenado localmente?
+
+o benefício é que antes de dar um push das minhas alterações posso fazer um git fetch e pegar a ultima versão do meu repositório remoto,
+verificar com git status e git log quais as diferenças e decidir em fazer o merge por mim mesmo. Ou, deixar que o próprio git pull faça 
+tudo isso por mim, bastando apenas eu trabalhar no conflito. Essa informação também será utilizada para saber se o meu repositório esta
+atrás, a frente ou fora de sincronia com meu remoto.
