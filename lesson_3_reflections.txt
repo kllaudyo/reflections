@@ -20,3 +20,9 @@ o benefício é que antes de dar um push das minhas alterações posso fazer um 
 verificar com git status e git log quais as diferenças e decidir em fazer o merge por mim mesmo. Ou, deixar que o próprio git pull faça 
 tudo isso por mim, bastando apenas eu trabalhar no conflito. Essa informação também será utilizada para saber se o meu repositório esta
 atrás, a frente ou fora de sincronia com meu remoto.
+
+Como você colaboraria sem usar Git ou GitHub? O que seria mais fácil e mais difícil?
+
+Bom, colaborar sem git ou github exigiria primeiro descobrir o link e os arquivos de um projeto a qual me sentisse útil. após, teria que
+realizar a alteração e enviar emails e esperar que alguém visse e achasse minhas alterações importantes. Git e Github tornaram isso 
+muito fácil e prático.
