@@ -26,3 +26,11 @@ Como você colaboraria sem usar Git ou GitHub? O que seria mais fácil e mais di
 Bom, colaborar sem git ou github exigiria primeiro descobrir o link e os arquivos de um projeto a qual me sentisse útil. após, teria que
 realizar a alteração e enviar emails e esperar que alguém visse e achasse minhas alterações importantes. Git e Github tornaram isso 
 muito fácil e prático.
+
+
+Quando você gostaria de fazer alterações em um branch separado, e não diretamente no master? Quais são os benefícios de cada abordagem?
+
+
+Normalmente abordo minhas alterações em um branch separado quando necessito criar uma nova funcionalidade onde ainda pode levar um tempo, ou quando quero implementar alguma coisa que poderá quebrar meu código master, então, uso branchs. O benefício que sinto é a segurança de voltar atrás,
+e usar os diffs...
+
